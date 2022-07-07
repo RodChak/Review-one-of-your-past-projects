@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+  
+    <h1 id="title">Classmate behavior</h1>
+  <p id="description">Let us know if ther behavior was the correct</p>
+    <form id="survey-form">
+      <label for="html"  id="name-label">Your name</label>
+      <input type="text" id="name" name="name" placeholder="Please enter your name" required/>
+      <label for="html" id="email-label">Your email</label>
+      <input type="email" id="email" name="email" placeholder="please enter your email" required/>
+      <label for="html" id="number-label">Contack number</label>
+      <input type="number" id="number" min="3" max="9" placeholder="Please enter your contack number" required />
+      <select name="dropdown" id="dropdown">
+        <option value="1"> Good</option>
+        <option value="2">Bad</option>
+      </select>
+
+      <input type="radio" name="behavior" value="Bad">
+      <input type="radio" name="behavior" value="Good">
+      <input type="radio" name="behavior" value="Excellent">
+
+      <input type="checkbox" value="Accept the termns?" />
+      <input type="checkbox" value="Something" />
+
+      <label for="Comment" id="comment"></label>
+      <textarea placeholder="Add your thoughts">
+
+      </textarea>
+      <input type="submit" value="Send your teammate behavior" id="submit">
+    </form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
